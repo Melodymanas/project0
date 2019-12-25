@@ -1,0 +1,77 @@
+h1 {
+  font-family: Arial, san-serif;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center; }
+
+.fonnt, h2, a, p, th, td {
+  font-family: Corbel Light, san-serif; }
+
+h2, a {
+  font-size: 40px; }
+
+p {
+  font-size: 25px; }
+
+ul {
+  list-style-type: none;
+  font-family: Arial, san-serif;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333; }
+
+li {
+  float: left; }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; }
+
+a:hover {
+  background-color: #111; }
+
+table {
+  text-align: center;
+  border: 2px solid black;
+  border-collapse: collapse; }
+
+th, td {
+  font-size: 25px;
+  padding: 10px;
+  border: 1px solid black; }
+
+th {
+  background-color: #FAECDA; }
+
+.bg1 {
+  background-image: url("https://www.elsetge.cat/myimg/f/152-1522035_lion-king-wallpaper-pride-rock-lion-king.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 50px; }
+
+.bg2 {
+  background-image: url("http://pridelands.eu/pictures/other/backgrounds/12%20-%20Sunrise.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 50px; }
+
+.bg3 {
+  background-image: url("http://i5.asn.im/thelionking-background-23-_sqwv.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 50px; }
+
+.row {
+  display: flex; }
+
+.column {
+  flex: 25%;
+  padding: 5px; }
+
+/*# sourceMappingURL=style.css.map */
